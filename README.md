@@ -102,7 +102,4 @@ az role assignment create --assignee <appId> --role "Contributor" --scope /subsc
 - Ensure the service principal has `Contributor` on the target subscription or resource group.
 - If you want dedicated concurrency, add self-hosted agents to your Azure DevOps organization.
 
-If you'd like, I can also:
-- add a short script to extract `client_id`/`tenant_id` from a service connection JSON,
-- or add a minimal CI job that demonstrates creating the service connection via Azure CLI.
 
