@@ -103,7 +103,9 @@ az role assignment create --assignee <appId> --role "Contributor" --scope /subsc
 - If you want dedicated concurrency, add self-hosted agents to your Azure DevOps organization.
 
 **Challenge**
-A little challenge: create a seperate pipeline or a task that deletes the created image in Azure. Hint: use the IMAGE_ID variable from 'extractImageId' task 
+- A little challenge: create a seperate pipeline or a task that deletes the created image in Azure. Hint: use the IMAGE_ID variable from 'extractImageId' task
+- define all variables in a yaml file and iterate vaules in packer file
+
 
 
 
